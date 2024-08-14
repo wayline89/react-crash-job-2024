@@ -1,6 +1,6 @@
 import React from "react";
 import jobs from "../jobs.json";
-import JobListing from "./JobListing";
+import JobListing from "./jobListing";
 
 const JobListings = () => {
 const recentJob = jobs.slice(0,3);
